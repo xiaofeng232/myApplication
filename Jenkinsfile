@@ -2,7 +2,7 @@
 
 def lvProjectPath = "source\\jenkinstest.lvproj"
 def lvBuildSpecName = "myBuildSpec"
-def lvVersion = "18.0"
+def lvVersion = "19.0"
 def lvBitness = "32"
 
 lvPipeline(lvProjectPath, lvBuildSpecName, lvVersion, lvBitness)
